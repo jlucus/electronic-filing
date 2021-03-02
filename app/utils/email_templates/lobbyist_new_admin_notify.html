@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+<p>
+A new Lobbyist has registered with eFile-SD:
+</p>
+<ul>
+<li>{{lobbyist_type}}</li>
+<li>Firm/Organization: {{lobbyist_name}}</li>
+<li>Contact: {{filer_first_name}} {{filer_last_name}}</li>
+<li>Email: {{filer_email}}</li>
+</ul>
+<p><b>Please log on to eFile, review or deny the registration.</b>
+{% endblock %}
